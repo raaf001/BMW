@@ -1,0 +1,1094 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* HOME PAGE START  */
+body.webpage{
+  .banner{
+    width: 100%;
+    height: 100vh;
+    position: static;
+    display: inline-flex;
+    align-items: center;
+  }
+  #myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 95%;
+    min-height: 95%;
+    z-index: -1;
+  }
+  /* MENU BAR/NAVIGATION BAR START */
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }/* MENU BAR/NAVIGATION BAR END */
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(109, 105, 105);
+    font-family: "Cairo", sans-serif;
+    font-weight: 10;
+    text-transform: uppercase;
+  }
+  /* CONTENT  */
+  .content{
+    padding: 0.4px;
+    margin-left: 250px;
+    justify-content: center;
+  }
+  .image{
+    padding-top: 100px;
+    margin-left: 250px;
+    width: 5vh;
+  }
+  footer{
+    background-color: #6b6262a7;
+    text-align: center;
+    a{
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 700;
+      font-size: 19px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #403b3b;
+    }
+  }
+/* HOME PAGE END  */
+}
+/* CAR ALL MODEL IMAGES PAGE START  */
+body.allmodels{
+  .allmodels{
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    }
+    nav{
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 20px 8%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    /* BMW LOGO  */
+    nav .logo{
+      width: 100px;
+      margin-top: 16px;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline;
+      margin-left: 40px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: rgb(64, 78, 78);
+      font-size: 15.5px;
+      font-family: "Cairo", sans-serif;
+      font-weight: 800;
+    }
+    /* MENU BAR/NAVIGATION BAR END */
+    h1{
+      font-family: "Rajdhani", sans-serif;
+      font-weight: 400;
+      margin-top: 150px;
+      margin-left: 550px;
+      font-size: 55px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 100px;
+    }
+    .card{
+      width: 325px;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      margin: 20px;
+    }
+    .card img{
+      width: 100%;
+      height: auto;
+    }
+    .card-content{
+      padding: 16px;
+    }
+    .card-content h3{
+      font-weight: 500;
+      font-family: "Cairo", sans-serif;
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    .card-content p{
+      color: #796060;
+      font-size: 15px;
+      line-height: 1.3;
+    }
+    .card-content .btn{
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #6542e0;
+      text-transform: capitalize;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 16px;
+      color: #fff;
+    }
+    footer{
+      background-color: #6b6262a7;
+      text-align: center;
+      a{
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #403b3b;
+      }
+    }
+}/* CAR ALL MODEL IMAGES PAGE END  */
+
+
+/* CAR ALL MODEL DETAILS PAGE-1  */
+body.detailspage1{
+    background-color: rgb(255, 255, 255);
+    nav{
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 20px 8%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    /* BMW LOGO  */
+    nav .logo{
+      width: 100px;
+      margin-top: 16px;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline;
+      margin-left: 40px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: rgb(64, 78, 78);
+      font-size: 15.5px;
+      font-family: "Cairo", sans-serif;
+      font-weight: 800;
+    }
+  
+  .cover img{
+   /* padding: 100px 20px 25px 25px ;*/
+   margin-top: 90px;
+   margin-left: 150px;
+    display: block;
+    height: 120.5vh;
+    width: 150vh;
+  }
+  .video video{
+  height: 70vh;
+  width: 150vh;
+  margin-left: 150px;
+ }
+ .details{
+  font-family: "Cairo", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 250px;
+ }
+ .details p{
+  font-family: "Cairo", sans-serif;
+ }
+ .details h3{
+  font-family: "Cairo", sans-serif;
+ }
+ .details ul li{
+  font-family: "Cairo", sans-serif;
+  list-style: square;
+  line-height: 35px;
+ }
+ .price ul li{
+  font-family: "Cairo", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+margin-left: 150px;  
+display: inline-block;
+  padding: 55px;
+ }
+ .tnc{
+  font-family: "Cairo", sans-serif;
+  font-weight: 200;
+  margin-left: 150px;
+ }
+ .tnc h3{
+  font-family: "Cairo", sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  text-align: left;
+ }
+ .tnc p{
+  font-family: "Cairo", sans-serif;
+  font-weight: 300;
+  line-height: 35px;
+ }
+ footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+ body.detailspage2{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+  /* padding: 100px 20px 25px 25px ;*/
+  margin-top: 90px;
+  margin-left: 100px;
+   display: block;
+   height: 120.5vh;
+   width: 170vh;
+ }
+
+ .details{
+  font-family: "Cairo", sans-serif;
+  text-align: left;
+  margin-left: 250px;
+ }
+ .details p{
+  font-family: "Cairo", sans-serif;
+ }
+ .details h3{
+  font-family: "Cairo", sans-serif;
+ }
+ .details ul li{
+  font-family: "Cairo", sans-serif;
+  list-style: square;
+  line-height: 35px;
+ }
+ .price ul li{
+  font-family: "Cairo", sans-serif;
+  font-size: 25px;
+margin-left: 150px;  
+display: inline-block;
+  padding: 20px;
+ }
+ .tnc{
+  font-family: "Cairo", sans-serif;
+  margin-left: 150px;
+ }
+ .tnc h3{
+  font-family: "Cairo", sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  text-align: left;
+ }
+ .tnc ul li{
+  font-family: "Cairo", sans-serif;
+ }
+ .tnc p{
+  font-family: "Cairo", sans-serif;
+  line-height: 35px;
+ }
+ footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.detailspage3{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+  /* padding: 100px 20px 25px 25px ;*/
+  margin-top: 90px;
+  margin-left: 100px;
+   display: block;
+   height: 120.5vh;
+   width: 170vh;
+ }
+ .details{
+  font-family: "Cairo", sans-serif;
+  text-align: left;
+  margin-left: 150px;
+ }
+ .details p{
+  font-family: "Cairo", sans-serif;
+ }
+ .price ul li{
+  font-family: "Cairo", sans-serif;
+  font-size: 25px;
+  margin-left: 150px;  
+  display: inline-block;
+    padding: 20px;
+   }
+   .fnc{
+    font-family: "Cairo", sans-serif;
+    margin-left: 150px;
+    font-size: 20px;
+  text-align: left;
+   }
+   .fnc h3{
+    font-family: "Cairo", sans-serif;
+   }
+   .fnc p{
+    font-family: "Cairo", sans-serif;
+   }
+   footer{
+    background-color: #6b6262a7;
+    text-align: center;
+    a{
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #403b3b;
+    }
+  }
+}
+body.detailspage4{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+  /* padding: 100px 20px 25px 25px ;*/
+  margin-top: 90px;
+  margin-left: 100px;
+   display: block;
+   height: 120.5vh;
+   width: 170vh;
+ }
+ .details{
+  font-family: "Cairo", sans-serif;
+  text-align: left;
+  margin-left: 250px;
+ }
+ .details p{
+  font-family: "Cairo", sans-serif;
+ }
+ .details ul li{
+  font-family: "Cairo", sans-serif;
+ }
+ .price ul li{
+  font-family: "Cairo", sans-serif;
+  font-size: 25px;
+  margin-left: 150px;  
+  display: inline-block;
+    padding: 20px;
+   }
+   .pnr{
+    font-family: "Cairo", sans-serif;
+    font-weight: 200;
+    margin-left: 150px;
+    font-size: 20px;
+  text-align: left;
+   }
+   .pnr h1{
+    font-family: "Cairo", sans-serif;
+    font-weight: 200;
+   }
+   footer{
+    background-color: #6b6262a7;
+    text-align: center;
+    a{
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #403b3b;
+    }
+  }
+} 
+body.detailspage5{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+  /* padding: 100px 20px 25px 25px ;*/
+  margin-top: 0px;
+  margin-left: 150px;
+   display: block;
+   height: 80vh;
+   width: 160vh;
+ }
+ .details{
+  font-family: "Cairo", sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 250px;
+ }
+ .details h6{
+  font-family: "Cairo", sans-serif;
+ }
+ footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.detailspage6{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+  /* padding: 100px 20px 25px 25px ;*/
+  margin-top: 100px;
+  margin-left: 150px;
+   display: block;
+   height: 100vh;
+   width: 160vh;
+ }
+ footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.detailspage7{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+  /* padding: 100px 20px 25px 25px ;*/
+  margin-top: 90px;
+  margin-left: 150px;
+   display: block;
+   height: 120.5vh;
+   width: 150vh;
+ }
+ footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.detailspage8{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+   /* padding: 100px 20px 25px 25px ;*/
+   margin-top: 90px;
+   margin-left: 150px;
+    display: block;
+    height: 120.5vh;
+    width: 150vh;
+  }
+  footer{
+    background-color: #6b6262a7;
+    text-align: center;
+    a{
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #403b3b;
+    }
+  }
+}
+body.detailspage9{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+ /* padding: 100px 20px 25px 25px ;*/
+ margin-top: 90px;
+ margin-left: 150px;
+  display: block;
+  height: 120.5vh;
+  width: 150vh;
+}
+footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.detailspage10{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+ /* padding: 100px 20px 25px 25px ;*/
+ margin-top: 90px;
+ margin-left: 150px;
+  display: block;
+  height: 130vh;
+  width: 130vh;
+}
+footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.detailspage11{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+ /* padding: 100px 20px 25px 25px ;*/
+ margin-top: 90px;
+ margin-left: 150px;
+  display: block;
+  height: 120.5vh;
+  width: 150vh;
+}
+footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.detailspage12{
+  background-color: rgb(255, 255, 255);
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+.cover img{
+ /* padding: 100px 20px 25px 25px ;*/
+ margin-top: 90px;
+ margin-left: 150px;
+  display: block;
+  height: 120.5vh;
+  width: 150vh;
+}
+footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.contact{
+  /* MENU BAR/NAVIGATION BAR START */
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+/* MENU BAR/NAVIGATION BAR END */
+.content{
+  text-align: left;
+  margin-left: 250px;
+  margin-top: 150px;
+}
+.content h1{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+.content h3{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+.content h6{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+.content a{
+  font-family: "Rajdhani", sans-serif;
+  color: #796060;
+  font-weight: 800;
+  text-decoration: none;
+
+}
+footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+body.disclaimer{
+  /* MENU BAR/NAVIGATION BAR START */
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* BMW LOGO  */
+  nav .logo{
+    width: 100px;
+    margin-top: 16px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(64, 78, 78);
+    font-size: 15.5px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+  }
+/* MENU BAR/NAVIGATION BAR END */
+.content{
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+.content h1{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+.content h5{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+.content h6{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+footer{
+  background-color: #6b6262a7;
+  text-align: center;
+  a{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #403b3b;
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
